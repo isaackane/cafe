@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil2 {fill:#2475DA}
+    .fil1 {fill:#318AE2}
+    .fil3 {fill:white}
+   ]]>
+  </style></defs><g id="Layer_x0020_1"><rect class="fil0" height="512" width="512"/><rect class="fil0" height="512" width="512"/><polygon class="fil1" points="256,106 321,143 386,181 386,256 386,331 321,369 256,406 191,369 126,331 126,256 126,181 191,143 "/><polygon class="fil2" points="256,406 191,369 126,331 126,256 126,181 191,143 256,106 "/><polygon class="fil1" points="256,131 310,162 364,193 364,256 364,319 310,350 256,381 202,350 148,319 148,256 148,193 202,162 "/><path class="fil3" d="M255 235c-15,1 -35,-8 -46,-17 -1,-2 -3,-3 -5,-5 -1,-1 -2,-2 -3,-3 -1,-1 -1,-2 -2,-3 -2,2 -3,7 -3,10 -2,8 1,17 7,23 1,1 1,1 2,2 1,0 1,1 2,1 -6,0 -8,-2 -12,-3 0,14 10,24 21,27 -2,2 -9,1 -11,0 2,11 13,19 25,19 -2,3 -13,8 -17,9 -8,3 -13,3 -23,3 1,1 7,4 9,4 3,2 6,3 9,4 22,7 45,4 64,-8 11,-6 20,-16 26,-27 8,-14 10,-26 10,-42 4,-2 11,-10 14,-14 -4,1 -8,4 -15,4 1,-1 2,-2 3,-3 3,-2 7,-8 8,-12 -4,2 -5,4 -15,6 -3,1 -2,0 -4,-1 -13,-10 -30,-8 -39,4 -5,6 -7,13 -5,22z"/></g></svg>

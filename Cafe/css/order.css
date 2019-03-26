@@ -1,0 +1,412 @@
+.page {
+  display: flex;
+  flex-wrap: wrap;
+/*  cursor: url(http://wiki.ooo4kids.org/images/b/b3/Cursor-Hand.svg), auto;}
+*/
+cursor: zoom-in;
+background-color: white;
+
+
+}
+
+
+button:focus { outline: none; }
+
+
+.cup2{
+  max-width: 960px;
+}
+.illustration img {
+  width: 100%;
+  display: block;
+}
+.header {
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+.logo{
+  font-size: 32px;
+  margin-bottom: 0px;
+  float: left !important;
+  background-color: #333;
+
+}
+
+
+.s{
+  display: flex;
+  justify-content: center;
+
+}
+
+h1{
+background-color: transparent;
+}
+p{
+background-color: transparent
+}
+i{
+  background-color: transparent;
+
+}
+.order_btn{
+  width: 145px;
+  color: white;
+  border-radius: .5rem;
+  height: 50px;
+  border-radius: 3rem;
+  font-size:25px;
+  outline: none;
+  background-color: grey;
+}
+
+.coffe1 img {
+  width: 100%;
+  display: block;
+  margin-top: 80px;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf{
+
+  color: black;
+  background-color: #333;
+}
+
+.menu {
+  background-color: #5995DA;
+  height: 80px;
+}
+
+.header {
+  background-color: #B2D6FF;
+}
+
+.content {
+  background-color: #EAEDF0;
+  height: 600px;
+}
+
+
+
+.feature-1 {
+  background-color: #F5CF8E;
+  flex: 0 50%;
+  flex-direction: column;
+
+}
+
+.feature-2 {
+  background-color: #F09A9D;
+  flex: 0 50%;
+  flex-direction: column;
+
+}
+
+.feature-3 {
+  background-color: #C8C6FA;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .sign-up,
+  .feature-1,
+  .feature-2,
+ {
+    width: 50%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .sign-up {
+  height: 200px;
+  order: 1;
+  flex-direction: column;
+  background-color: #D6E9FE;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  order: 2;
+}
+{
+  .feature-1,
+  .feature-2,
+}
+
+  .lf{
+    width: 960px;
+    background-color: green;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 1px;
+  }
+
+ {
+    width: 33.3%;
+  }
+  .header {
+    height: 400px;
+
+  }
+  .order{
+    font-family: Courier;
+    color: green;
+    font-size:20px;
+    border-style:solid;
+    border-color: white;
+    margin-top: 2.5px !important;
+    margin-bottom: 1px !important;
+    background-color: #333;
+  }
+
+
+  .order:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+pre{
+  background-color: transparent;
+
+}
+.reg{
+padding-top:22px !important;
+background-color: #333;
+}
+  #navbar {
+    height: 63px;
+    display:inline-block;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 960px;
+    z-index: 0;
+    font-family: Courier;
+
+
+  }
+
+    #navbar a {
+      display:inline-block;
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+      font-family: Courier;
+
+
+
+
+    }
+
+
+
+
+      .wrap{
+        display: flex;
+        justify-content: center;
+      }
+      .cup2{
+        max-width: 960px;
+      }
+}
+
+.sub-ord{
+  width: 100%;
+  color:white;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+h1.wiggle {
+  display: inline-block;
+  animation: wiggle 2.5s infinite;
+}
+
+h1.wiggle:hover {
+  animation: none;
+}
+
+.item{
+  color: black;
+  display: flex;
+   margin: auto;
+   border: 1px solid black;
+   border-left:none;
+   border-right: none;
+   padding: 14px;
+   background-color: grey;
+   margin-top: 2px;
+   width: 100%;
+   justify-content:center;
+   align-items: stretch;
+
+}
+.items{
+  display: flex;
+   margin: auto;
+   width: 75%;
+   border: 3px solid #333;
+   margin-top: 100px;
+   justify-content: space-around;
+   flex-wrap: wrap;
+
+}
+
+.o1{
+  border: 3px solid black;
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.O-R{
+  position: fixed;
+  right: 0;
+  top: 6rem;
+  border: 3px solid black;
+}
+
+.total{
+  background-color: inherit;
+
+}
+.ot{
+  font-size: 1.5rem;
+
+
+}
+
+.coffee_name{
+  display: flex;
+  justify-content: center;
+  color: #333;
+  font-weight: 800;
+}
+
+.item_add{
+color: green;
+padding: 0px;
+flex-basis: 33.33%;
+font-size: 48px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.item_remove{
+  color: Red;
+  padding: 0px;
+  flex-basis: 33.33%;
+  font-size: 48px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.numc{
+  color: #333;
+  flex-basis: 33.33%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.lf{
+  color: black;
+  width: 960px;
+  background-color: green;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: auto;
+}
+
+.o2{
+  align-items: center;
+}
+
+.temp {
+  display: flex;
+}
+
+
+.sign-up {
+  background-color: #333;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  height: 64px !important;
+  margin-bottom: 2px;
+}
+
+.body {
+  width: 960px;
+  margin: 0 auto;
+}

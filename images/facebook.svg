@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil2 {fill:#19377A}
+    .fil1 {fill:#2A5297}
+    .fil3 {fill:#FEFEFE}
+   ]]>
+  </style></defs><g id="Layer_x0020_1"><rect class="fil0" height="512" width="512"/><polygon class="fil1" points="256,106 321,143 386,181 386,256 386,331 321,369 256,406 191,369 126,331 126,256 126,181 191,143 "/><polygon class="fil2" points="256,406 191,369 126,331 126,256 126,181 191,143 256,106 "/><polygon class="fil1" points="256,131 310,162 364,193 364,256 364,319 310,350 256,381 202,350 148,319 148,256 148,193 202,162 "/><path class="fil3" d="M237 228l-13 0 -1 28 14 0 0 70 28 0 0 -70 21 0 3 -28 -23 0c0,-25 2,-16 22,-18l0 -24c-5,0 -17,0 -23,0 -7,0 -13,2 -17,6 -11,8 -11,20 -11,36z"/></g></svg>

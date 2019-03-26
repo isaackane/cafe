@@ -1,0 +1,346 @@
+  .page {
+  display: flex;
+  flex-wrap: wrap;
+/*  cursor: url(http://wiki.ooo4kids.org/images/b/b3/Cursor-Hand.svg), auto;}
+*/
+cursor: zoom-in;
+background-color: grey;
+
+
+}
+.p1{
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+}
+a{
+  background-color: transparent !important;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: black;
+}
+
+
+.cup2{
+  max-width: 960px;
+}
+.illustration img {
+  width: 100%;
+  display: block;
+}
+.header {
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+.logo{
+  font-size: 32px;
+  margin-bottom: -2px;
+  float: left !important;
+  background-color: #333;
+
+}
+
+
+}
+.s{
+  display: flex;
+  justify-content: center;
+
+}
+
+h1{
+background-color: transparent;
+}
+p{
+background-color: transparent
+}
+i{
+  background-color: transparent;
+}
+h2{
+background-color: transparent;
+}
+.order_btn{
+  width: 145px;
+  color: white;
+  border-radius: .5rem;
+  height: 50px;
+  border-radius: 3rem;
+  font-size:25px;
+  outline: none;
+  background-color: grey;
+}
+
+.coffe1 img {
+  width: 100%;
+  display: block;
+  margin-top: 80px;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.open{
+  font-weight: bold;
+}
+.opens{
+  width: 50%;
+  border: 3px solid black;
+  padding: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.lf{
+  display: flex;
+  color: black;
+  background-color: #333;
+}
+.w1{
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  background-color: #5995DA;
+  height: 80px;
+}
+
+.header {
+  background-color: #B2D6FF;
+}
+
+.content {
+  background-color: #333;
+  height: 30px;
+}
+.hr1{
+  color: white;
+}
+
+.sign-up {
+  background-color: #333;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  height: 64px !important;
+  margin-bottom: 2px;
+}
+
+.feature-1 {
+  background-color: white;
+  flex: 0 50%;
+  flex-direction: column;
+  border-left: 2px solid #333;
+  border-right: 1px solid #333;
+}
+
+.feature-2 {
+  background-color: white;
+  flex: 0 50%;
+  flex-direction: column;
+  border-right: 2px solid #333;
+  border-left: 1px solid #333;
+}
+
+.feature-3 {
+  background-color: #333;
+  flex-direction: column;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .sign-up,
+  .feature-1,
+  .feature-2,
+ {
+    width: 50%;
+  }
+}
+
+
+
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+.us-body{
+  width: 960px;
+  margin: 0 auto;
+  height: 600px;
+}
+.map{
+width: 960px;
+height: 200px;
+}
+.contact{
+  display:flex;
+  justify-content: space-around;
+}
+.ethos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+.ethos2{
+font-family: sans-serif;
+padding-top: 10px;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 6px;
+
+}
+
+  .sign-up {
+  height: 200px;
+  order: 1;
+  flex-direction: column;
+}
+.content {
+  order: 2;
+}
+{
+
+  .feature-1,
+  .feature-2,
+}
+
+  .lf{
+    width: 960px;
+    background-color: green;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+ {
+    width: 33.3%;
+  }
+  .header {
+    height: 400px;
+
+  }
+  .order{
+    font-family: Courier;
+    color: green;
+    font-size:20px;
+    border-style:solid;
+    border-color: white;
+    margin-top: 2.5px !important;
+    margin-bottom: 1px !important;
+    background-color: #333;
+  }
+
+pre{
+  background-color: transparent;
+
+}
+.reg{
+padding-top:22px !important;
+background-color: #333;
+}
+  #navbar {
+    display:inline-block;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 960px;
+    z-index: 0;
+    font-family: Courier;
+    height: 63px;
+
+
+  }
+
+    #navbar a {
+      display:inline-block;
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+      font-family: Courier;
+
+
+
+
+    }
+
+
+
+
+      .wrap{
+        display: flex;
+        justify-content: center;
+      }
+      .cup2{
+        max-width: 960px;
+      }
+}
+
+
+
+
+.us{
+  padding-top:22px !important;
+  background-color: #333;
+}
+
+.us:hover {
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+transform: translate3d(0, 0, 0);
+backface-visibility: hidden;
+perspective: 1000px;
+}
+
+@keyframes shake {
+10%, 90% {
+  transform: translate3d(-1px, 0, 0);
+}
+
+20%, 80% {
+  transform: translate3d(2px, 0, 0);
+}
+
+30%, 50%, 70% {
+  transform: translate3d(-2px, 0, 0);
+}
+
+40%, 60% {
+  transform: translate3d(2px, 0, 0);
+}
+}

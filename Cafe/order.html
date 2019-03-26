@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset='UTF-8'/>
+  <link rel="stylesheet" type="text/css" href="css/order.css">
+  <meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <title>cafe Esperanza</title>
+  <meta name="google" content="notranslate">
+
+</head>
+<body>
+
+<div class="body">
+
+
+<nav class="wrap">
+<div id="navbar">
+  <a target="_blank" href="order.html" class="reg" download>Menu</a>
+  <a href="news.html" class="reg">News</a>
+  <!--<a href="#contact" class="reg">Contact</a>-->
+  <a target="_blank" href="us.html" class="reg">Us</a>
+  <a href="#invalid" class="order">Order Now!</a>
+  <a href="index.html" class="logo">Cafe esperanza&#9445;</a>
+</div>
+</nav>
+
+
+
+
+
+
+
+    <div class="items">
+
+
+
+      <div class="o1">
+          <img src="js/coffee.jpg" alt="coffee">
+          <div class="o2">
+            <p class="coffee_name">Café au lait</p>
+            <div class="temp">
+              <button class="item_add" type="button" onClick="addCoffee('c1', 'Clickcoffe1B')">▲</button>
+              <div class="numc" id="Clickcoffe1B">0</div>
+              <button class="item_remove" type="button" onClick="removeCoffee('c1', 'Clickcoffe1B')">▼</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="o1">
+          <img src="js/coffee.jpg" alt="coffee">
+          <div class="o2">
+            <p class="coffee_name">Latte</p>
+            <div class="temp">
+              <button class="item_add" type="button" onClick="addCoffee('c2', 'Clickcoffe1A')">▲</button>
+              <div class="numc" id="Clickcoffe1A">0</div>
+              <button class="item_remove" type="button" onClick="removeCoffee('c2', 'Clickcoffe1A')">▼</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="o1">
+          <img src="js/coffee.jpg" alt="coffee">
+          <div class="o2">
+            <p class="coffee_name">The Esperanza</p>
+            <div class="temp">
+              <button class="item_add" type="button" onClick="addCoffee('c3', 'Clickcoffe1C')">▲</button>
+              <div class="numc" id="Clickcoffe1C">0</div>
+              <button class="item_remove" type="button" onClick="removeCoffee('c3', 'Clickcoffe1C')">▼</button>
+            </div>
+          </div>
+      </div>
+
+
+
+      <div class="o1">
+          <img src="js/coffee.jpg" alt="coffee">
+          <div class="o2">
+            <p class="coffee_name">Caffè macchiato</p>
+            <div class="temp">
+              <button class="item_add" type="button" onClick="addCoffee('c4', 'Clickcoffe1D')">▲</button>
+              <div class="numc" id="Clickcoffe1D">0</div>
+              <button class="item_remove" type="button" onClick="removeCoffee('c4', 'Clickcoffe1D')">▼</button>
+            </div>
+          </div>
+      </div>
+
+
+
+
+      <div class="o1">
+          <img src="js/coffee.jpg" alt="coffee">
+          <div class="o2">
+            <p class="coffee_name">Long black</p>
+            <div class="temp">
+              <button class="item_add" type="button" onClick="addCoffee('c5', 'Clickcoffe1E')">▲</button>
+              <div class="numc" id="Clickcoffe1E">0</div>
+              <button class="item_remove" type="button" onClick="removeCoffee('c5', 'Clickcoffe1E')">▼</button>
+            </div>
+          </div>
+      </div>
+
+
+
+
+      <div class="o1">
+          <img src="js/coffee.jpg" alt="coffee">
+          <div class="o2">
+            <p class="coffee_name">Flat white</p>
+            <div class="temp">
+              <button class="item_add" type="button" onClick="addCoffee('c6', 'Clickcoffe1F')">▲</button>
+              <div class="numc" id="Clickcoffe1F">0</div>
+              <button class="item_remove" type="button" onClick="removeCoffee('c6', 'Clickcoffe1F')">▼</button>
+            </div>
+          </div>
+      </div>
+
+
+
+
+      <div class="o1">
+          <img src="js/coffee.jpg" alt="coffee">
+          <div class="o2">
+            <p class="coffee_name">Espresso</p>
+            <div class="temp">
+              <button class="item_add" type="button" onClick="addCoffee('c7', 'Clickcoffe1G')">▲</button>
+              <div class="numc" id="Clickcoffe1G">0</div>
+              <button class="item_remove" type="button" onClick="removeCoffee('c7', 'Clickcoffe1G')">▼</button>
+            </div>
+          </div>
+      </div>
+
+
+
+      <div class="o1">
+          <img src="js/coffee.jpg" alt="coffee">
+          <div class="o2">
+            <p class="coffee_name">Cappuccino</p>
+            <div class="temp">
+              <button class="item_add" type="button" onClick="addCoffee('c8', 'Clickcoffe1H')">▲</button>
+              <div class="numc" id="Clickcoffe1H">0</div>
+              <button class="item_remove" type="button" onClick="removeCoffee('c8', 'Clickcoffe1H')">▼</button>
+            </div>
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+<footer>
+  <div class='section sign-up'>
+      <p>sign up to our newsleter for monthly free coffee</p>
+    <form class="sign-up">
+      <input id="sign_up_name" type="text" name="email" value="" placeholder="Name" min="1" max="206">
+      <input id="sign_up_email" type="text" name="email" value="" placeholder="Email" min="1" max="206">
+      <select name="cars">
+        <option value="daily">Daily</option>
+        <option value="weekly">Weekly</option>
+      </select>
+      <button type="submit" name="button" onClick="submitSignUp(event)">Sign Up!</button>
+  </form>
+</div>
+
+  <lf class="lf">
+    <p>Copyright (c) 2018 isaac kane All Rights Reserved. Ⓥis a trademark of the vegan society.</p>
+  </lf>
+
+
+</footer>
+
+</cr>
+</div>
+
+<div class="O-R">
+  <p class="ot">order total</p>
+  <p><a id="total" class="total"></a></p>
+  <button type="button" class="sub-ord" name="button" onClick="subord(event)">submit order</button>
+</div>
+
+<script type="text/javascript">
+
+var data = {
+  "c1": 0,
+  "c2": 0,
+  "c3": 0,
+  "c4": 0,
+  "c5": 0,
+  "c6": 0,
+  "c7": 0,
+  "c8": 0,
+  "c9": 0,
+
+}
+
+function subord(){
+  alert("Order placed.")
+  location.reload();
+}
+
+
+function addCoffee(cKey, cId) {
+  if(data[cKey] <= 98){
+    data[cKey] += 1; // data[c1] === 1
+    document.getElementById(cId).innerHTML = data[cKey];
+    total();
+    recipt();
+  }
+}
+function removeCoffee(cKey, cId) {
+  if(data[cKey] >= 1){
+    data[cKey] -=1;
+    document.getElementById(cId).innerHTML = data[cKey];
+  }
+  total();
+  recipt();
+  zero();
+}
+
+function total() {
+  var total = (data.c1 + data.c2 +data.c3 + data.c4 + data.c5 + data.c6 + data.c7 + data.c8)
+  document.getElementById('total').innerHTML = total;
+
+}
+
+function recipt(){
+  var coffees1 = ('coffees = ' + (data.c1 + data.c2 + data.c3 + data.c4 + data.c5 + data.c6 + data.c7 + data.c8))
+  if(data.c1 >= 1 || data.c2 >= 1 || data.c3 >= 1 || data.c4 >= 1 || data.c5 >= 1 || data.c6 >= 1 || data.c7 >= 1 || data.c8 >= 1 ){
+    document.getElementById('total').innerHTML = (coffees1);
+  }
+
+
+
+
+}
+function zero(){
+  var total = (data.c1 + data.c2 +data.c3 + data.c4 + data.c5 + data.c6 + data.c7 + data.c8)
+  if(total <= 0){
+    document.getElementById('total').innerHTML = "";
+  }
+}
+
+</script>
+</body>
+</html>
